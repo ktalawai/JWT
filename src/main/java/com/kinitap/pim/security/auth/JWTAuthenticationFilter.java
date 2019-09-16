@@ -1,10 +1,10 @@
-package com.falabella.pim.security.auth;
+package com.kinitap.pim.security.auth;
 
 
 import static com.auth0.jwt.algorithms.Algorithm.HMAC512;
-import static com.falabella.pim.security.auth.SecurityConstants.HEADER_STRING;
-import static com.falabella.pim.security.auth.SecurityConstants.SECRET;
-import static com.falabella.pim.security.auth.SecurityConstants.TOKEN_PREFIX;
+import static com.kinitap.pim.security.auth.SecurityConstants.HEADER_STRING;
+import static com.kinitap.pim.security.auth.SecurityConstants.SECRET;
+import static com.kinitap.pim.security.auth.SecurityConstants.TOKEN_PREFIX;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -24,8 +24,8 @@ import org.springframework.security.core.userdetails.User;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
 import com.auth0.jwt.JWT;
-import com.falabella.pim.security.dao.ApplicationUser;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.kinitap.pim.security.dao.ApplicationUser;
 
 public class JWTAuthenticationFilter extends UsernamePasswordAuthenticationFilter {
 	private AuthenticationManager authenticationManager;

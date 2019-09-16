@@ -1,8 +1,8 @@
-package com.falabella.pim.security.auth;
+package com.kinitap.pim.security.auth;
 
-import static com.falabella.pim.security.auth.SecurityConstants.HEADER_STRING;
-import static com.falabella.pim.security.auth.SecurityConstants.SECRET;
-import static com.falabella.pim.security.auth.SecurityConstants.TOKEN_PREFIX;
+import static com.kinitap.pim.security.auth.SecurityConstants.HEADER_STRING;
+import static com.kinitap.pim.security.auth.SecurityConstants.SECRET;
+import static com.kinitap.pim.security.auth.SecurityConstants.TOKEN_PREFIX;
 
 import java.io.IOException;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package com.falabella.pim.security.dao;
+package com.kinitap.pim.security.dao;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

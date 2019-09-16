@@ -1,4 +1,4 @@
-package com.falabella.pim.security.service;
+package com.kinitap.pim.security.service;
 
 import static java.util.Collections.emptyList;
 
@@ -10,8 +10,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.falabella.pim.security.dao.ApplicationUser;
-import com.falabella.pim.security.repository.ApplicationUserRepository;
+import com.kinitap.pim.security.dao.ApplicationUser;
+import com.kinitap.pim.security.repository.ApplicationUserRepository;
 
 @Service
 @ConditionalOnProperty("isJwtEnabled")

@@ -1,6 +1,6 @@
-package com.falabella.pim.security.auth;
+package com.kinitap.pim.security.auth;
 
-import static com.falabella.pim.security.auth.SecurityConstants.SIGN_UP_URL;
+import static com.kinitap.pim.security.auth.SecurityConstants.SIGN_UP_URL;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
@@ -15,7 +15,7 @@ import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
-import com.falabella.pim.security.service.UserDetailsServiceImpl;
+import com.kinitap.pim.security.service.UserDetailsServiceImpl;
 
 @EnableWebSecurity
 public class WebSecurity extends WebSecurityConfigurerAdapter {

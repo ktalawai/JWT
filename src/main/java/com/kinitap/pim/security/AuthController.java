@@ -1,4 +1,4 @@
-package com.falabella.pim.security;
+package com.kinitap.pim.security;
 
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.falabella.pim.security.dao.ApplicationUser;
-import com.falabella.pim.security.repository.ApplicationUserRepository;
+import com.kinitap.pim.security.dao.ApplicationUser;
+import com.kinitap.pim.security.repository.ApplicationUserRepository;
 
 @RestController
 @RequestMapping("/auth")

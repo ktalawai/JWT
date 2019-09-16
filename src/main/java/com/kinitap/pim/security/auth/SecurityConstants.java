@@ -1,4 +1,4 @@
-package com.falabella.pim.security.auth;
+package com.kinitap.pim.security.auth;
 
 public class SecurityConstants {
 	public static final String SECRET = "SecretKeyToGenJWTs";

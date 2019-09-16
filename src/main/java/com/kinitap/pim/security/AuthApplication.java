@@ -1,4 +1,4 @@
-package com.falabella.pim.security;
+package com.kinitap.pim.security;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
